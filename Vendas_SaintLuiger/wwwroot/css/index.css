@@ -1,0 +1,14 @@
+﻿
+.historia {
+    font-size: 16pt;
+    text-align: justify;
+}
+.titulohistoria {
+    font-family: helvetica;
+    font-size: 26pt;
+}
+.imghistoria {
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+}
