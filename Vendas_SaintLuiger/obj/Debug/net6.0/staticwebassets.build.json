@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LP0rConJ4AA5MLd/by3mcVoUEh45JeuMXEwJ1Vbzzho=",
+  "Hash": "JejryjUf4ivRIAercn48+++DfU68lrP4OBCEqg+pc6Q=",
   "Source": "Vendas_SaintLuiger",
   "BasePath": "_content/Vendas_SaintLuiger",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\xitor\\source\\repos\\Vendas_SaintLuiger\\Vendas_SaintLuiger\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\xitor\\source\\repos\\Vendas_SaintLuiger\\Vendas_SaintLuiger\\wwwroot\\favicon.ico",
       "SourceId": "Vendas_SaintLuiger",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\xitor\\source\\repos\\Vendas_SaintLuiger\\Vendas_SaintLuiger\\wwwroot\\",
       "BasePath": "_content/Vendas_SaintLuiger",
-      "RelativePath": "favicon.png",
+      "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\xitor\\source\\repos\\Vendas_SaintLuiger\\Vendas_SaintLuiger\\wwwroot\\images\\1.jpg",
@@ -151,23 +151,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\xitor\\source\\repos\\Vendas_SaintLuiger\\Vendas_SaintLuiger\\wwwroot\\images\\4.jpg",
-      "SourceId": "Vendas_SaintLuiger",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\xitor\\source\\repos\\Vendas_SaintLuiger\\Vendas_SaintLuiger\\wwwroot\\",
-      "BasePath": "_content/Vendas_SaintLuiger",
-      "RelativePath": "images/4.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\4.jpg"
     },
     {
       "Identity": "C:\\Users\\xitor\\source\\repos\\Vendas_SaintLuiger\\Vendas_SaintLuiger\\wwwroot\\images\\Saint.png",

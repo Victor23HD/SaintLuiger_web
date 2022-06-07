@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Vendas_SaintLuiger.Context;
+using Vendas_SaintLuiger.Repositories;
+using Vendas_SaintLuiger.Repositories.Interfaces;
 
 namespace Vendas_SaintLuiger
 {
@@ -16,6 +18,7 @@ namespace Vendas_SaintLuiger
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<ISorveteRepository, SorveteRepository>();
             services.AddControllersWithViews();
         }
 
