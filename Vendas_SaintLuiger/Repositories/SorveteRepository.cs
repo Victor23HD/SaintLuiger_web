@@ -18,11 +18,6 @@ namespace Vendas_SaintLuiger.Repositories
         public IEnumerable<Sorvete> SorvetesPreferidos => _context.Sorvetes.
             Where(i => i.IsSorvetePreferido).Include(c => c.Categoria);
 
-        public Sorvete GetSorveteById(int sorveteId)
-        {
-            return _context.Sorvetes.FirstOrDefault(i => i.SorveteId == sorveteId);
-        }
-
         public Task<object> ToListAsync(IEnumerable<Sorvete> sorvete)
         {
             throw new NotImplementedException();

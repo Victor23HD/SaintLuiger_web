@@ -7,6 +7,5 @@ namespace Vendas_SaintLuiger.Repositories.Interfaces
         IEnumerable<Sorvete> Sorvetes { get;}
         IEnumerable<Sorvete> SorvetesPreferidos { get; }
 
-        Sorvete GetSorveteById(int sorveteId);
     }
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow align-self-baseline">
             <div class="container-fluid">
                 <a class="navbar-brand" style="font-size:22pt; font-style:oblique" asp-area="" asp-controller="Home" asp-action="Index">SaintLuiger</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -24,15 +24,31 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Sorvete" asp-action="List">Sorvete</a>
+                            <div class="dropdown">
+                                <button class="btn-lg dropdown-toggle" type="button" style="border:none;background-color:white; font-size:16pt" id="dropdownSorvetes" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sorvetes
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSorvetes">
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Sorvete" asp-action="List" style="color: black"
+                                           asp-route-categoria="Picole Tradicional">Picole Tradicional</a>
+                                           <a class="dropdown-item" asp-controller="Sorvete" asp-action="List" style="color: black"
+                                           asp-route-categoria="Picole Premium">Picole Premium</a>
+                                    </li>
+                                    <hr>
+                                    <li> <a class="dropdown-item" asp-controller="Sorvete" asp-action="List" asp-route-categoria=""  style="color:black">
+                                        Todos os sorvetes</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Outros</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Receitas</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Curiosidades</a>
                         </li>
                         <li class="nav-item">
